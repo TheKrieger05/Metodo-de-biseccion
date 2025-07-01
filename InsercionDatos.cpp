@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cstring>
-#include "VerificarFuncion.h"
-#include "InsercionDatos.h"
+#include "Headers/VerificarFuncion.h"
+#include "Headers/InsercionDatos.h"
     void InsercionDatos::insercionFuncion(){
         std::string funcion;
         do{std::cout<<"Ingresar función: ";std::getline(std::cin,funcion);}

@@ -4,8 +4,8 @@
 #include<utility>
 #include<cctype>
 #include<algorithm>
-#include "VerificarFuncion.h"
-#include "Biseccion.h"
+#include "Headers/VerificarFuncion.h"
+#include "Headers/Biseccion.h"
     void VerificarFuncion::verificar(std::string func){
     int x=0; std::string operadores="+-*/^";
     std::vector<int>operandos, indiceX;

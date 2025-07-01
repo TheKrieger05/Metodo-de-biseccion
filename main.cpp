@@ -1,5 +1,5 @@
 #include<iostream>
-#include "InsercionDatos.h"
+#include "Headers/InsercionDatos.h"
 int main(){
     InsercionDatos datos;
     datos.insercionFuncion();

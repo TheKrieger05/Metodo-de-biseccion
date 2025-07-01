@@ -3,16 +3,16 @@
 #include <string>
 #include <algorithm>
 #include <vector>
-#include "Biseccion.h"
+#include "Headers/Biseccion.h"
 #include <cmath>
 #include <sstream>
 #include <iomanip>
 
-float Biseccion::ejecutarOperaciones(std::string func){
-    for(std::size_t i = 0;i<func.length();i++){
-        //terminar luego
-    }
-}
+//float Biseccion::ejecutarOperaciones(std::string func){
+//    for(std::size_t i = 0;i<func.length();i++){
+//        terminar luego
+//    }
+//}
 
 std::string formatFloat(float num){
     std::ostringstream oss;
@@ -31,7 +31,7 @@ float Biseccion::evaluarFuncion(float valor,std::string func){
             if(func[i]=='x'||func[i]=='X')
                 func.replace(i,1,conv);
         }
-        float res = ejecutarOperaciones(func);
+        float res = 0.1f; //ejecutarOperaciones(func);
         return res;
 }
 
